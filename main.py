@@ -1,14 +1,13 @@
-import requests
+# Finnhub path below is commented out, so requests/dotenv/os are unused:
+# import requests
 import yfinance as yf
-from dotenv import load_dotenv
-import os
-import colorama
+# from dotenv import load_dotenv
+# import os
 from colorama import Fore, Style, init
 
-load_dotenv()
-api_key = os.getenv("FINNHUB_API_KEY")
+# load_dotenv()
+# api_key = os.getenv("FINNHUB_API_KEY")
 
-colorama.init()
 init(autoreset=True)
 
 # FOR CANADIAN STOCKS
